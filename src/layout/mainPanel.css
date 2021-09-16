@@ -1,14 +1,12 @@
 .main-div{
-    background-color:  red;
-    border-radius: 40px;
+    background-color:  rgb(248, 248, 248);
+    /* border-radius: 40px; */
     display: flex;
-    -webkit-border-radius: 60px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
+  
+    
 }
 .left-div1{
-    /* background-color:  rgb(243, 243, 239); */
+    background-color:  rgb(243, 243, 239);
  width: 30%;
  height: 700px;
  display: flex;
@@ -23,8 +21,8 @@
  height: 700px;
  display: flex;
  width: 30%;
- 
- padding: 0px 20px;
+ justify-content: center;
+ padding: 40px 20px;
     
 }
 .right-div{

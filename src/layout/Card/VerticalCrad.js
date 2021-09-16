@@ -20,7 +20,6 @@ const VerticalCard = ({users}) => {
     <p className="title1">{props.body}</p>
     <span className="date">Mon,21 Dec 2020 14:57 GMT</span>
     <img src="https://source.unsplash.com/user/erondu/230x90" />
-   
     &nbsp;&nbsp;
   
 </div>

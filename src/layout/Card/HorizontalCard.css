@@ -1,0 +1,30 @@
+.avatar1 {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+}
+.outer-div{
+    background-color: red;
+    /* display: flex; */
+}
+.img-div1{
+    /* background-color: yellow; */
+   
+      padding: 10px 10px;
+    
+}
+.prop-title{
+    overflow:hidden;
+    text-overflow:ellipsis; 
+    
+   
+    white-space: nowrap;
+ 
+}
+
