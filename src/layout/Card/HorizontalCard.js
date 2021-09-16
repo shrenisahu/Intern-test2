@@ -1,7 +1,7 @@
 import React from 'react'
 import "./HorizontalCard.css"
 import {ImCross}from 'react-icons/im'
-const HorizontalCard = ({users}) => {
+const HorizontalCard = ({users,Cross}) => {
     return (
       
          <div className="mainCont"> 
@@ -12,7 +12,7 @@ const HorizontalCard = ({users}) => {
                             <>
                             <div className="outer-div">
                            <div className="div1">
-                           {/* <img src="https://source.unsplash.com/user/erondu" alt="Avatar" className="avatar1"/> */}
+                          
                            </div>
                            <div className="div2">
 
@@ -22,7 +22,7 @@ const HorizontalCard = ({users}) => {
                             </h5>
 <p className="prop-title">{props.body}</p>
                            </div>
-                            <ImCross />
+                            <ImCross onClick={()=>Cross(props.id)} />
                             </div>
                             </>
                         )

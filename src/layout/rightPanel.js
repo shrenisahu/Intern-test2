@@ -12,7 +12,11 @@ const RightPanel = (props) => {
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
     const [postsPerPage] = useState(6);
-   
+    const Cross=(id)=>{
+        console.log(id);
+        const newlist=users.filter((props)=>props.id!==id)
+        setUsers(newlist)
+      }
    
     const getUsers=async()=>{
 
@@ -38,17 +42,22 @@ const RightPanel = (props) => {
         <div>
        <div id="notes" className="  row container-fluid  ">
                
-               {stateChange?<HorizontalCard users={currentPosts}/>:<VerticalCard users={currentPosts} />}
+               {stateChange?<HorizontalCard users={currentPosts} 
+                    Cross={Cross}
+               />:<VerticalCard users={currentPosts} Cross={Cross}/>}
 
                </div>
+<div className="pagination">
+
 
                <Pagination
         postsPerPage={postsPerPage}
         totalPosts={users.length}
         paginate={paginate}
+        
       />
-       
-            {/* {stateChange?<HorizontalCard/>:<VerticalCrad/>} */}
+       </div>
+           
         </div>
     )
 }

@@ -18,16 +18,17 @@
 }
 
 .outer-div{
-    background-color: rgb(243, 231, 231);
+    background-color: rgb(255, 255, 255);
     /* display: flex; */
     width: 900px;
-    margin-top: 40px;
+    margin-top:14px;
+    padding: 0px 3px;
     margin-left: auto;
     margin-right: auto;
 }
 .div1{
     /* width: 20%; */
-    background-color: navajowhite;
+    /* background-color: navajowhite; */
     /* height: 50px; */
     /* display: block; */
     /* display: inline; */

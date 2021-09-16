@@ -3,7 +3,10 @@ import {ImCross}from 'react-icons/im'
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './VerticalCard.css'
-const VerticalCard = ({users}) => {
+const VerticalCard = ({users,Cross}) => {
+
+
+
     return (
         < >
         {
@@ -14,7 +17,7 @@ const VerticalCard = ({users}) => {
      <div >
      <div className="cross-icon">
 
-<ImCross  className="cross"/>
+<ImCross onClick={()=>Cross(props.id)} className="cross"/>
      </div>
     <h5 key={props.id} className="title">{props.title}</h5>
     <p className="title1">{props.body}</p>
