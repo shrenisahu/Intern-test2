@@ -42,7 +42,7 @@ const Form = () => {
   </div>
   <br/>
  
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary">Submit FeedBack</button>
 </form>
         </div>
     )

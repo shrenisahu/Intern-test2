@@ -1,17 +1,29 @@
 import React, { useState } from 'react'
 import "./leftPanel.css"
-import Slider from './Drawer/Slider';
+
+import Drawer from './Drawer/Drawer';
 const LeftPanel = (props) => {
     const{ Toggle,stateChange}=props;
     const [slide,setSlider]=useState(false)
 
 
-const SLIDE=()=>{
-  setSlider(!slide)
-}
+    const [open, setOpen] = React.useState(false);
+
+    const handleDrawerOpen = () => {
+      setOpen(!open);
+      console.log(open)
+    };
+  
+    const handleDrawerClose = () => {
+      setOpen(false);
+    };
+  
+
+
 
     return (
         <div>
+        {open?<Drawer open={open} handleDrawerClose={handleDrawerClose}  />:null}
            <div  style={{width: '18rem'}} className="main-div">
            <div className='img-div'>
            <img src="https://source.unsplash.com/user/erondu" alt="Avatar" class="avatar"/>
@@ -49,10 +61,10 @@ const SLIDE=()=>{
    
     
 
-    <div className="listen" onClick={SLIDE}>
+    <div className="listen" onClick={handleDrawerOpen}>
       <h5>We are listening</h5>
     </div>
-    {(slide)?null:<Slider/>}
+    
   </div>
 </div>
 
