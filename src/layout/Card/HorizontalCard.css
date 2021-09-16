@@ -8,15 +8,52 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     
+    
 }
-.outer-div{
-    background-color: red;
-    /* display: flex; */
-}
-.img-div1{
-    /* background-color: yellow; */
+.mainCont{
+    /* background-color: blueviolet; */
+    width: 100%;
+    
    
-      padding: 10px 10px;
+}
+
+.outer-div{
+    background-color: rgb(243, 231, 231);
+    /* display: flex; */
+    width: 900px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div1{
+    /* width: 20%; */
+    background-color: navajowhite;
+    /* height: 50px; */
+    /* display: block; */
+    /* display: inline; */
+}
+.div2{
+/* display: flex; */
+    /* width: 80%; */
+    /* background-color: rgb(26, 16, 2); */
+    /* height: 50px; */
+}
+.cross{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.img-div1{
+    background-color: yellow;
+   width: 20%;
     
 }
 .prop-title{

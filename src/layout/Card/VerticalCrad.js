@@ -14,7 +14,7 @@ const VerticalCard = ({users}) => {
      <div >
      <div className="cross-icon">
 
-<ImCross />
+<ImCross  className="cross"/>
      </div>
     <h5 key={props.id} className="title">{props.title}</h5>
     <p className="title1">{props.body}</p>

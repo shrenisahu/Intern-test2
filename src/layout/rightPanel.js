@@ -36,7 +36,7 @@ const RightPanel = (props) => {
 
     return (
         <div>
-       <div id="notes" className="  row container-fluid  Outer-Div ">
+       <div id="notes" className="  row container-fluid  ">
                
                {stateChange?<HorizontalCard users={currentPosts}/>:<VerticalCard users={currentPosts} />}
 

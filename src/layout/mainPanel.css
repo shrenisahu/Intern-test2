@@ -6,9 +6,10 @@
     
 }
 .left-div1{
-    background-color:  rgb(243, 243, 239);
+    /* background-color:  rgb(243, 243, 239); */
+    background-color:  rgb(253, 253, 16);
  width: 30%;
- height: 700px;
+ height: 900px;
  display: flex;
  justify-content: center;
  
@@ -18,7 +19,7 @@
 .left-div{
     background-color:  rgb(229, 229, 226);
  
- height: 700px;
+ height: 1000px;
  display: flex;
  width: 30%;
  justify-content: center;
