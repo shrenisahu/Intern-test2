@@ -1,0 +1,39 @@
+.div-container{
+background-color: rgb(255, 255, 255) !important;
+width: 20px;
+margin: auto;
+margin-top: 40px;
+padding: 10px 30px;
+}
+
+.cross-icon{
+    display: flex;
+    position: relative;
+    top: 6px;
+    left: 235px;
+}
+.title{
+     color: rgb(8, 8, 8);
+    font-style: bold;
+    overflow:hidden;
+     text-overflow:ellipsis; 
+     
+    
+     white-space: nowrap;
+  
+
+}
+.title1{
+    color: rgb(65, 62, 62);
+   width: 200px;
+   /* white-space:nowrap; */
+   overflow:hidden;
+    text-overflow:ellipsis; 
+    line-height: 1.5em;
+    height: 3em;
+   
+
+}
+.date{
+    color: rgb(170, 170, 170);
+}
